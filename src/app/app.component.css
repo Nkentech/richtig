@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+}
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-link{
+    color: #646464e5;
+}
+
+.nav-link:hover{
+    color:#121433e5;
+    border: solid;
+    border: 15px;
+}
+
+
