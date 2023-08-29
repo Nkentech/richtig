@@ -56,7 +56,6 @@ img {
 }
 
 .btn-main:hover{
-    color: #830808;
     transform: translateY(-5px);
     border: solid #fff;
 }

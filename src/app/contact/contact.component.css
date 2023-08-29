@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4.h5.h6 {
+    font-weight: 900;
+}
+
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #121433e5;
+    z-index: -1;
+}
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-intro{
+    margin-bottom: 40px;
+    background: #121433;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: #282829;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.icon{
+    font-size: 18pt;
+}
+
+.icon-map{
+    font-size: 45pt;
+    margin-bottom: 20px;
+    color: #fff;
+    background: #121433;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 100px;
+}
+
+
+.divider{
+    height: 4px;
+    width: 90px;
+    background: #121433;
+    margin: 16px auto;
+    border-radius: 100px;
+}
+
+.address-location p{
+    font-size: 22pt;
+    padding-top: 40px;
+    color: #121433;
+}
