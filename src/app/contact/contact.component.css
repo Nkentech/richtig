@@ -55,10 +55,29 @@ img {
     font-size: 18pt;
 }
 
+.icon-map{
+    font-size: 45pt;
+    margin-bottom: 20px;
+    color: #fff;
+    background: #121433;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 100px;
+}
+
+
 .divider{
     height: 4px;
     width: 90px;
     background: #121433;
     margin: 16px auto;
     border-radius: 100px;
+}
+
+.address-location p{
+    font-size: 22pt;
+    padding-top: 40px;
+    color: #121433;
 }
