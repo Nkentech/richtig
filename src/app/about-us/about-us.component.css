@@ -62,3 +62,50 @@ img {
 .about-img{
     box-shadow: #000;
 }
+
+.tabs{
+    border: 1px solid #121433;
+    display: flex;
+}
+
+.tabs-sidebar{
+    width: 125px;
+    flex-shrink: 0;
+}
+
+.tabs-button{
+    display: block;
+    padding:0;
+    background: #121433;
+    border: none;
+    width: 100%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.tabs-button:active{
+    background:#fff;
+    color: #121433;
+}
+
+.tabs-button:not(:last-of-type){
+    border-radius: 1px solid #121433;
+}
+
+.tabs-button--active{
+    font-weight: bold;
+    border-right: 2px solid #121433;
+    background: #fff;
+    color: #121433;
+}
+
+.tabs-content{
+    padding: 15px;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.tabs-content--active{
+    display: block;
+}
