@@ -109,3 +109,7 @@ img {
 .tabs-content--active{
     display: block;
 }
+
+i{
+    color: #fff;
+}

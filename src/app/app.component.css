@@ -24,4 +24,12 @@ a {
     border: 15px;
 }
 
+.footer{
+    color: #fff;
+    background-color: #121433e5;
+}
 
+.footer a{
+    color: #fff;
+    font-weight: normal;
+}
