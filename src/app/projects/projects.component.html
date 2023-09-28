@@ -1,1 +1,72 @@
-<p>projects works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richtig - Projects</title>
+</head>
+<body>
+    <!--HERO-->
+    <section id="home" class="bg-cover hero-section" style="background-image: url(../assets/images/video/trailler-video.mp4);" >
+        <video src="../assets/images/video/trailler-video.mp4" autoplay muted loop></video>
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+          <div class="col-12">
+            <h1 class="display-4" data-aos="fade-up" data-aos-duration="3000">Richtig Projects</h1>
+           
+                <a routerLink="/services" class="btn btn-main" data-aos="fade-up" data-aos-duration="1000">Our Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery min-vh-100">
+        <div class="container-lg" >
+           <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3" >
+              <div class="col">
+                 <img src="../assets/images/trailler-1.jpg" class="gallery-item" data-aos="zoom-out" data-aos-duration="1500" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="../assets/images/trailler-2.jpg" class="gallery-item" data-aos="zoom-out" data-aos-duration="1500" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="../assets/images/trailler-3.jpg" class="gallery-item" data-aos="zoom-out" data-aos-duration="1500" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="../assets/images/trailler-4.jpg" class="gallery-item"  data-aos="zoom-out" data-aos-duration="1500" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="../assets/images/trailler-5.jpg" class="gallery-item" data-aos="zoom-out" data-aos-duration="1500" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="../assets/images/trailler-6.jpg" class="gallery-item" data-aos="zoom-out" data-aos-duration="1500" alt="gallery">
+              </div>
+           </div>
+        </div>
+     </section>
+
+     <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <img src="../assets/images/trailler-1.jpg" class="modal-img" alt="modal img">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <script> 
+      document.addEventListener("click",
+      function (e){
+        if(e.target.classList.contains("gallery-item")){
+              const src = e.target.getAttribute("src");
+              document.querySelector(".modal-img").src = src;
+              const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+              myModal.show();
+        }
+      })</script>
+</body>
+</html>
