@@ -24,6 +24,32 @@ a {
     border: 15px;
 }
 
+.float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .float-button a {
+    display: block;
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    text-align: center;
+    font-size: 42px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .float-button a:hover {
+    background-color: #128c7e; /* Darker green color on hover */
+  }
+
 .footer{
     color: #fff;
     background-color: #121433e5;
